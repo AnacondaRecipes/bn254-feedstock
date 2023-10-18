@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/nthparty/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 113208d61601b9c48a2eb24156bcedcf81e84668584bc723aacf43ac59c3a62a
+  sha256: 179a5d59f6bf2fecaac63976af810d094d3b71a5cec589e4c507dfa9dd69654a
 
 build:
   script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
